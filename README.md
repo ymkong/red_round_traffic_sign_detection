@@ -1,6 +1,6 @@
 # Red Round Traffic Sign Detection
 
-The goal of the project is to carry out red round sign detection. Type in terminal: 
+The goal of the project is to carry out red round sign detection using YOLO [1]. Type in terminal: 
 
 sh run.sh
 
@@ -11,3 +11,6 @@ carries out the first step in this project, which is to download/prepare the dat
 - Annotate all the images under ~/images for YOLO, according to the input requirement of YOLO. 
 - Select images for train set (80%), dev set (10%), and test set (10%). The names of the images in each set are given in ~/train.txt, ~/dev.txt, ~/test.txt
 - Prepare YOLO configuration files in ~/cfg: Obj.data, obj.names, tiny-yolo.cfg
+
+
+[1] J. Redmon et al. "You only look once: Unified, real-time object detection." Proceedings of the IEEE conference on computer vision and pattern recognition. 2016.
